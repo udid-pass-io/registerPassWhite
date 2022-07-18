@@ -228,6 +228,8 @@ function attachEvents() {
         try {
             let addr = $("#input_addr").val()
             console.log("input_addr",addr)
+            addr=addr.replace(/\n/g,' ')
+            console.log("addr",addr)
             let addr_split = addr.split(' ')
             let white_l = []
             for(var index in addr_split){
@@ -256,6 +258,9 @@ function attachEvents() {
             // for (var x=0;x<3001;x++){
             //     white_l.push("0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4")
             // }
+            //"0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4"
+            // let isWhite = window.app.wt.methods.IsAWhiteMember("0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4").call()
+            // console.log("isWhite",isWhite)
             const newArr = []
             const section = 3000
             if (white_l.length>0){
