@@ -1,5 +1,5 @@
 // import { FreeUDID_abi, FreeUDID_Addr, UDID_abi, UDID_Addr,WhiteUDID_abi,WhiteUDID_Addr } from "./abi_address.js"
-import {UDID_abi, UDID_Addr,WhiteUDID_abi,WhiteUDID_Addr,Mint_abi,Mint_Addr,White_abi,White_Addr } from "./abi_address.js"
+import {White_abi,White_Addr } from "./abi_address.js"
 import "./jquery.i18n.js";
 // import {white_list} from "./white_list.js"
 import {detectBroswer, showMsg, jumpToEtherscan, languageSelect, formatDate} from "./utils.js"
