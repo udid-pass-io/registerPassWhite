@@ -259,8 +259,8 @@ function attachEvents() {
             //     white_l.push("0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4")
             // }
             //"0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4"
-            let isWhite = window.app.wt.methods.IsAWhiteMember("0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4").call()
-            console.log("isWhite",isWhite)
+            // let isWhite = window.app.wt.methods.IsAWhiteMember("0x5120B54E64c1fBA0a94eF2771DaB84A97B7D7CC4").call()
+            // console.log("isWhite",isWhite)
             const newArr = []
             const section = 3000
             if (white_l.length>0){
