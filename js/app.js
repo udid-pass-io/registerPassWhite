@@ -226,6 +226,7 @@ function attachEvents() {
 
     $("#exchange").click(async () => {
         try {
+            console.log("white contract_addr",White_Addr)
             let addr = $("#input_addr").val()
             console.log("input_addr",addr)
             addr=addr.replace(/\n/g,' ')
