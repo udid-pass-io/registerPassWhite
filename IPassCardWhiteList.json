@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "IsAWhiteMember",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user_",
+						"type": "address"
+					}
+				],
+				"name": "LevelAddr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/whitelist/IPassCardWhiteList.sol": "IPassCardWhiteList"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Owner.sol": {
+			"keccak256": "0x1173a81d3f1665dda11fbec58e628fd3d578a47da4952a9b1317619bf0cda7d7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://9d221caee79ad7cc24dcee704d6294f6005d2e097a937597da78e5e197d0801a",
+				"dweb:/ipfs/QmZFNnvWhPNGUy4wPeauZfrp2J6rTdDWA7bzY7ChnfFGUD"
+			]
+		},
+		"contracts/whitelist/IPassCardWhiteList.sol": {
+			"keccak256": "0xb9d9beb2f58afef7f2c80d07b0e5d1ab39cc31da201ac15d40e016cbb42c6242",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ab0bff2bd4422f4f092e9aa0e2c10b98fa271d3ca2ff56b1c71243a9f94e7005",
+				"dweb:/ipfs/QmUNZhusSshFAAsRtJGgqCeRCQWGeQynVffCu6T7QaFXYm"
+			]
+		}
+	},
+	"version": 1
+}
